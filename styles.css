@@ -168,6 +168,7 @@ footer {
     }
     .foto_pequena {
         display: inline-block;
+        height: 100px;
     }
     .footer_2linha {
         display: none;

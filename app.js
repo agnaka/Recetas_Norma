@@ -67,3 +67,12 @@ function pesquisar() {
   // Atribui os resultados gerados à seção HTML
   section.innerHTML = resultados;
 }
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let fLen = fruits.length;
+
+// let text = "<ul>";
+// for (let i = 0; i < fLen; i++) {
+//   text += "<li>" + fruits[i] + "</li>";
+// }
+// text += "</ul>";

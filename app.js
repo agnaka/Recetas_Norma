@@ -55,7 +55,7 @@ function pesquisar() {
               ${receta.preparacion}</br></br>
               Autor: ${receta.autor}
             </p>
-            <a href=${receta.link} target="_blank">Mais informações</a>
+            <a href="${receta.foto}" target="_blank">Clique aqui para ver la imagen</a>
             </div>          
         </div>
       `;

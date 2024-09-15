@@ -46,16 +46,17 @@ function pesquisar() {
         <div class="item-resultado">
           <img src="${receta.foto}" width='50' height= 'auto'>
             <div class="item-resultado-direita">
-            <h2>                        
-              ${receta.titulo} <img src="${receta.foto}" class="foto_pequena">
-            </h2>
-            <p class="descricao-meta">Ingredientes</br>
-              ${receta.ingredientes}</br></br>
-              Preparación</br>
-              ${receta.preparacion}</br></br>
-              Autor: ${receta.autor}
-            </p>
-            <a href="${receta.foto}" target="_blank">Clique aqui para ver la imagen</a>
+              <div class="item-resultado-direita--banner">
+                <h2>${receta.titulo}</h2>
+                <img src="${receta.foto}" class="foto_pequena">
+              </div>
+              <p class="descricao-meta">Ingredientes</br>
+                ${receta.ingredientes}</br></br>
+                Preparación</br>
+                ${receta.preparacion}</br></br>
+                Autor: ${receta.autor}
+              </p>
+              <a href="${receta.foto}" target="_blank">Clique aqui para ver la imagen</a>
             </div>          
         </div>
       `;

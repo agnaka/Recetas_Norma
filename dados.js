@@ -20,24 +20,38 @@ let recetasNorma = [
         foto: 'assets/guiso_picante.png',
         autor: "Normita"
     },
+    
     {
-        titulo: "Arroz con Pollo",        
-        ingredientes: [
-          ' Pollo',
-          ' Arroz',
-          ' Cebolla',
-          ' Ají verde',
-          ' Zanahoria',
-          ' Tomate',
-          ' Sal',
-          ' Pimienta'
-        ],
-        preparacion: "Trozar el pollo y dorarlo en aceite. Agregar cebolla, ajo y zanahoria picados. Rehogar todo junto. Poner 1/2 lata de tomate picado, S, P, azúcar (1/2 cdita). Dejar cocinar en mínimo. Lavar una taza de café de arroz por persona y dejar escurrir en el colador. 1/2 hora antes del amuerzo colocar 2 azafrán junto con el pollo y revolver, agregar el arroz sobre el pollo y 2 1/2 tazas de agua caliente. Mezclar y cocinar como si fuese gohan. Si se desea el arroz más blando se agrega más agua.</br> Cacerola Essen, hervir 8' apagar y esperar 40'",
-        tags: "arroz azafrán salsa tomate papa",
-        foto: "assets/arroz_con_pollo.png",
-        autor: "Normita"
-    },
+      titulo: "Arroz con Pollo",        
+      ingredientes: [
+        ' Pollo',
+        ' Arroz',
+        ' Cebolla',
+        ' Ají verde',
+        ' Zanahoria',
+        ' Tomate',
+        ' Sal',
+        ' Pimienta'
+      ],
+      preparacion: "Trozar el pollo y dorarlo en aceite. Agregar cebolla, ajo y zanahoria picados. Rehogar todo junto. Poner 1/2 lata de tomate picado, S, P, azúcar (1/2 cdita). Dejar cocinar en mínimo. Lavar una taza de café de arroz por persona y dejar escurrir en el colador. 1/2 hora antes del amuerzo colocar 2 azafrán junto con el pollo y revolver, agregar el arroz sobre el pollo y 2 1/2 tazas de agua caliente. Mezclar y cocinar como si fuese gohan. Si se desea el arroz más blando se agrega más agua.</br> Cacerola Essen, hervir 8' apagar y esperar 40'",
+      tags: "arroz azafrán salsa tomate papa",
+      foto: "assets/arroz_con_pollo.png",
+      autor: "Normita"
+  },
 
+  {
+    titulo: "Pão caseiro",        
+    ingredientes: [
+      '360grs de farinha de trigo',
+      '230ml de água morna',
+      '4grs de fermento biológico seco (sachê)',      
+      '7grs sal (1 colher de sopa'
+    ],
+    preparacion: "Misture todo em seco. Acrescentar a água. Misturar xxx a massa até ficar homogenia. Antes de sovar deixar descansar 10 min. Sovar por 10 min. Colocar a parte lisa para acima e cobrir com um pano e deixar descansar por 1 hora. Untar uma assadeira com manteiga, modelar o pão e eixar descansar +30 min. Pulverizar o forno com água para criar a parte crocante. ",
+    tags: "pao levadura leche harina ",
+    foto: "assets/pan1.jpeg",
+    autor: "Emília"
+  },
     {
       titulo: "Flan",        
       ingredientes: [
@@ -48,7 +62,7 @@ let recetasNorma = [
       ],
       preparacion: "Batir en un bol los huevos con el azúcar, agregarle la leche y la esencia. Volcar la preparación en una flanera caramelizada (acordarse de preparar antes). Cocinar en la flanera Essen. Aproximadamente 50 minutos a fuego corona",
       tags: "leche huevo ",
-      foto: "assets/flan.jpeg",
+      foto: "assets/flan.png",
       autor: "Jandra (adaptación)"
   },
   ];

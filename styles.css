@@ -30,9 +30,10 @@ h1 {
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
 
-h2 {    display: flex;
+h2 {    
+    display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 h3 {
@@ -104,7 +105,7 @@ section button {
 
 .item-resultado-direita {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
 }
 
@@ -118,6 +119,7 @@ section button {
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: #30475E; /* Cor do texto dos links */
+    margin-left: 1rem;
 }
 
 section p {
@@ -155,6 +157,10 @@ footer {
 }
 
 @media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;        
+    }
+
     section input {
         width: 20rem; /* Largura dos inputs */
         border: none; /* Remove a borda padrão */
@@ -166,9 +172,23 @@ footer {
         width: 20rem; /* Largura máxima da caixa de resultados */
         height: 40vh; /* Altura máxima da caixa de resultados */
     }
+    .item-resultado-direita--banner {
+        display: flex;
+        margin-left: 1rem; 
+        align-items: center;    
+        flex-flow: row nowrap;
+    }
+    .item-resultado-direita--banner h2{
+        flex-basis: 7rem;
+        flex-shrink: 1;
+        flex-grow: 0;
+    }
     .foto_pequena {
         display: inline-block;
         height: 100px;
+        flex-basis: 15rem;        
+        flex-shrink: 1;
+        flex-grow: 0;
     }
     .footer_2linha {
         display: none;

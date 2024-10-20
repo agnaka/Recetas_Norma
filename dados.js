@@ -118,7 +118,7 @@ let recetasNorma = [
   {
     titulo: "Kare Raisu (Curry Japonês)",
     ingredientes: [
-      "350g de coxão mole picado em cubos",
+      "350g de coxão mole cortado em cubos",
       "1 colher de sopa de manteiga",
       "200g de batata picada em cubos",
       "250g de cebola picada",
@@ -127,8 +127,8 @@ let recetasNorma = [
       "700ml de água",
       "2 cubos de curry"
     ],
-    preparacion: "Numa caçarola, refogue a carne na manteiga. Acrescente os legumes picados e a água. Cozinhe em fogo alto por 15 minutos ou até os legumes estarem macios. Dissolva os cubos de curry na mistura. Sirva com arroz branco japonês.",
-    tags: "prato principal, japonês, curry, carne, legumes, almoço, jantar",
+    preparacion: "Numa caçarola ou panela funda frite a carne na manteiga. Em seguida acrescenteos legumes picados e a água. Mexa um pouco com uma colher de paupara que os ingredientes se misturem, tampe e deixe cozinhar em fogo alto por 15 minutos ( o ponto é quando os pedacinhos de batata estiverem suficientemente macios, cozidos). Desligue o fogo e acrescente os cubos de curry. Mexa um pouco a mistura até que os cubos se dissolvam, formem um caldo espesso cor caramelo. Sirva com gohan (arroz branco japonês).",
+    tags: "prato principal, japones, curry, carne, legumes, almoço, jantar",
     foto: "assets/kare.jpg",
     autor: "internet",
     rendimento: "4 porções",
